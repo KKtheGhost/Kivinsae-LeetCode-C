@@ -38,7 +38,7 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
         freep->val = s%10;
         freep->next = 0; /* Make sure the Last of the LinkNode end with a NULL ->next */
         p1 = p1 == 0 ? 0 : p1->next;
-		p2 = p2 == 0 ? 0 : p2->next;
+        p2 = p2 == 0 ? 0 : p2->next;
     }
     return ans;
 }
