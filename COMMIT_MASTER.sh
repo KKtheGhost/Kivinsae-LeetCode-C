@@ -6,4 +6,4 @@ read -p "Enter the topic of commit:" topic
 read -p "Enter the details of commit:" details
 git add .
 git commit -m "$type($topic): $details"
-git push git@github.com:KKtheGhost/Kivinsae-LeetCode-C.git master
+git push git@github.com:KKtheGhost/Kivinsae-LeetCode-C.git main
