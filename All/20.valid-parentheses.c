@@ -58,20 +58,20 @@
 // @lc code=start
 
 char left(char c) {
-    if (c == ')') {return '(';}
-    else if (c == ']') {return '[';}
-    else {return '{';}
+    if (c == 41) {return 40;}
+    else if (c == 93) {return 91;}
+    else {return 123;}
 }
 
 bool isValid(char * s){
     int len=strlen(s);
     if (len == 1) {return false;}
-    int *status = (int *)malloc(sizeof(int) * 9999);
-    memset(status, 0, 9999);
+    int *status = (int *)malloc(sizeof(int) * 7002);
+    memset(status, 0, 7002);
     int idx = 0;
 
     for (int i = 0; i < len; ++i) {
-        if (s[i] == '(' || s[i] == '[' || s[i] == '{') {++idx; status[idx] = s[i];}
+        if (s[i] == 40 || s[i] == 91 || s[i] == 123) {++idx; status[idx] = s[i];}
         else {
             if (left(s[i]) == status[idx]) {--idx;}
             else {return false;}
