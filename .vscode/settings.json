@@ -5,5 +5,5 @@
         "__functional_03": "c",
         "ios": "c"
     },
-    "C_Cpp.errorSquiggles": "Disabled"
+    "C_Cpp.errorSquiggles": "Enabled"
 }
