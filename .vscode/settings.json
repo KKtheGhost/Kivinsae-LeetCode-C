@@ -3,7 +3,12 @@
         "random": "c",
         "functional": "c",
         "__functional_03": "c",
-        "ios": "c"
+        "ios": "c",
+        "bitset": "c",
+        "chrono": "c",
+        "algorithm": "c",
+        "__bit_reference": "c",
+        "unordered_map": "c"
     },
     "C_Cpp.errorSquiggles": "Enabled"
 }
