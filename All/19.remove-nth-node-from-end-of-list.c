@@ -94,4 +94,4 @@ struct ListNode* removeNthFromEnd(struct ListNode* head, int n){
     return (skip_idx == 1)? dummy->next : dummy;
 }
 // @lc code=end
-
+// @lc MEDIUM

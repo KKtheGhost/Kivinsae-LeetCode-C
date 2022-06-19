@@ -96,4 +96,4 @@ struct ListNode* mergeTwoLists(struct ListNode* list1, struct ListNode* list2){
     return  dummy.next;
 }
 // @lc code=end
-
+// @lc EASY

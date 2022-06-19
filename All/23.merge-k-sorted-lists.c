@@ -112,4 +112,4 @@ struct ListNode* mergeKLists(struct ListNode** lists, int listsSize){
     return res->next;
 }
 // @lc code=end
-// @lc MEDIUM
+// @lc HARD
