@@ -73,4 +73,4 @@ bool isSameTree(struct TreeNode* p, struct TreeNode* q){
     bool res = true; Compare(p, q, &res); return res;
 }
 // @lc code=end
-
+// @lc EASY

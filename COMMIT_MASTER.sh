@@ -10,4 +10,4 @@ read -p "Enter the branch of commit:" branch
 git checkout -b $branch
 git add .
 git commit -m "$type($topic): $details"
-git push git@github.com:KKtheGhost/Kivinsae-LeetCode-C.git main
+git push git@github.com:KKtheGhost/Kivinsae-LeetCode-C.git $branch
