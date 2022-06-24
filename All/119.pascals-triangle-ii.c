@@ -69,4 +69,4 @@ int* getRow(int rowIndex, int* returnSize){
     return res;
 }
 // @lc code=end
-
+// @lc EASY
