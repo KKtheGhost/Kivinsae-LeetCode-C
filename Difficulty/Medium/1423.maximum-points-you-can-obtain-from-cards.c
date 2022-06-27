@@ -1,1 +1,0 @@
-../../All/1423.maximum-points-you-can-obtain-from-cards.c

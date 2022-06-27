@@ -8,11 +8,11 @@ for i in $(ls All)
 do
     Difficulty=$(tail -n 1 All/$i | awk '{print $3}')
     if [[ $Difficulty == "EASY" ]];then
-        ln -s ../../All/$i Difficulty/Easy/$i
+        ln -s ./All/$i ./Difficulty/Easy/$i
     elif [[ $Difficulty == "MEDIUM" ]];then
-        ln -s ../../All/$i Difficulty/Medium/$i
+        ln -s ./All/$i ./Difficulty/Medium/$i
     else [[ $Difficulty == "HARD" ]]
-        ln -s ../../All/$i Difficulty/Hard/$i
+        ln -s ./All/$i ./Difficulty/Hard/$i
     fi
 done
 

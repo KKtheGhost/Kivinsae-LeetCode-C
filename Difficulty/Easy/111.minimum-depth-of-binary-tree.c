@@ -1,1 +1,0 @@
-../../All/111.minimum-depth-of-binary-tree.c

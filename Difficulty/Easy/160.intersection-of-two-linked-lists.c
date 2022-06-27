@@ -1,1 +1,0 @@
-../../All/160.intersection-of-two-linked-lists.c

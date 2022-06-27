@@ -1,1 +1,0 @@
-../../All/22.generate-parentheses.c
