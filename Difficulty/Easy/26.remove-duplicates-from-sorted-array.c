@@ -1,1 +1,0 @@
-../../All/26.remove-duplicates-from-sorted-array.c

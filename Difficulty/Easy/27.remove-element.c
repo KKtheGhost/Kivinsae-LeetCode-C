@@ -1,1 +1,0 @@
-../../All/27.remove-element.c

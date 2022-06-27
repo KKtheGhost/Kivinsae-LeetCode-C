@@ -89,4 +89,4 @@ bool hasPathSum(struct TreeNode* root, int targetSum){
     return res;
 }
 // @lc code=end
-// EASY
+// @lc EASY

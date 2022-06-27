@@ -1,1 +1,0 @@
-../../All/119.pascals-triangle-ii.c

@@ -1,1 +1,0 @@
-../../All/28.implement-str-str.c
