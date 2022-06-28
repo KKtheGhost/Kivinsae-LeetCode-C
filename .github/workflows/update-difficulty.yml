@@ -23,7 +23,6 @@ jobs:
           cd Kivinsae-LeetCode-C
           ./Link_Gen.sh
           git config --global user.email "kivinsae@gmail.com" && git config --global user.name "KKtheGhost"
-          git diff
-          git add .
+          git add . && git commit -m ":boom:(CICD) Auto-Gen Difficulty Directory" || exit 0
           git config pull.rebase false
           git pull && git push
