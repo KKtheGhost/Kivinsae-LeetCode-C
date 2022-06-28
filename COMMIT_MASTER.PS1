@@ -8,6 +8,7 @@ git update-index --chmod=+x .\Link_Gen.sh
 git update-index --chmod=+x .\COMMIT_MASTER.sh
 
 git checkout -b $branch
+git pull
 git add .
 git commit -m "$type($topic): $details"
 git push git@github.com:KKtheGhost/Kivinsae-LeetCode-C.git $branch
