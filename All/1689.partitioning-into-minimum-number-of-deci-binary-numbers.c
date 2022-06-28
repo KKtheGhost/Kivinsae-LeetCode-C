@@ -5,12 +5,16 @@
  */
 
 // @lc code=start
-
-
 int minPartitions(char * n){
-    int res = 0, len = strlen(n);
-    for (int i = 0; i < len; i++) {
-        res = (res < (n[i] - '0')%10)? (n[i] - '0')%10 : res;
+    int len = strlen(n);
+    int i = 0, j = len - 1;
+    int res = 0;
+    while (i <= j)
+    {
+        res = (res < n[i] - '0')? n[i] - '0' : res;
+        res = (res < n[j] - '0')? n[j] - '0' : res;
+        if (res == 9) {return res;}
+        i++;j--;
     }
     return res;
 }
