@@ -4,7 +4,9 @@ $topic= Read-Host -Prompt "Enter the topic of commit"
 $details= Read-Host -Prompt "Enter the details of commit"
 $branch= Read-Host -Prompt "Enter wished branch to push"
 
-./Link_Gen.PS1
+git update-index --chmod=+x .\Link_Gen.sh
+git update-index --chmod=+x .\COMMIT_MASTER.sh
+
 git checkout -b $branch
 git add .
 git commit -m "$type($topic): $details"
