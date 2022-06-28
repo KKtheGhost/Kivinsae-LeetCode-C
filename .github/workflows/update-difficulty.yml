@@ -17,14 +17,11 @@ jobs:
         env:
           SSH_KEY: ${{ secrets.KIVINSAE_PRIV_RSAKEY }}
 
-      - name: Clone and cd into the repo
+      - name: Clone, Generate, Commit and Push the repo
         run: |-
           git clone git@github.com:KKtheGhost/Kivinsae-LeetCode-C.git
           cd Kivinsae-LeetCode-C
           ./Link_Gen.sh
-
-      - name: Commit and push
-        run: |-
           git config --global user.email "kivinsae@gmail.com" && git config --global user.name "KKtheGhost"
           git diff
           git add .
