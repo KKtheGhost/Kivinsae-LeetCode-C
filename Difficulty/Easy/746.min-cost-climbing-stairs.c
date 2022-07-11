@@ -1,0 +1,1 @@
+./All/746.min-cost-climbing-stairs.c
