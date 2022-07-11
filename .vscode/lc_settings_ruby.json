@@ -1,0 +1,8 @@
+{
+    "workbench.colorTheme": "Visual Studio Dark",
+    "editor.fontFamily": "CaskaydiaCove NF, 'CaskaydiaCove NF', monospace",
+    "leetcode.defaultLanguage": "ruby",
+    "leetcode.workspaceFolder": "D:\\Development\\github.com\\Kivinsae-LeetCode-Ruby\\All",
+    "leetcode.hint.configWebviewMarkdown": false,
+    "leetcode.hint.commandShortcut": false
+}

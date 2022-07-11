@@ -1,0 +1,8 @@
+{
+    "workbench.colorTheme": "Visual Studio Dark",
+    "editor.fontFamily": "CaskaydiaCove NF, 'CaskaydiaCove NF', monospace",
+    "leetcode.defaultLanguage": "go",
+    "leetcode.workspaceFolder": "D:\\Development\\github.com\\Kivinsae-LeetCode-Go\\All",
+    "leetcode.hint.configWebviewMarkdown": false,
+    "leetcode.hint.commandShortcut": false
+}
